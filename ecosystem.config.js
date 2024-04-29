@@ -31,7 +31,7 @@ module.exports = {
       repo: "git@github.com:sekadau-online/f-cms.git",
       path: "/home/fauzan/f-cms", // Ubah path sesuai struktur proyek And                                                                                                                                                                                               a
       "pre-deploy": "git fetch --all",
-      "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config"                                                                                                                                                                                               g.js --env production"
+      "post-deploy": "npm install && npm run build && pm2 reload ecosystem.config.js --env production"                                                                                                                                                                                               g.js --env production"
     }
   }
 }
