@@ -24,5 +24,17 @@
   "devDependencies": {
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0"
-  }
+  },
+  "description": "## Build Setup",
+  "main": "ecosystem.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekadau-online/f-cms.git"
+  },
+  "author": "A. Fauzan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sekadau-online/f-cms/issues"
+  },
+  "homepage": "https://github.com/sekadau-online/f-cms#readme"
 }
